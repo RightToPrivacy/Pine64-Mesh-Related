@@ -34,6 +34,8 @@ sudo dtc -O dtb -o /tmp/image/boot/dtb/allwinner/sun50i-a64-sopine-baseboard.dtb
 
 umount /tmp/image
 
+Nou your Armbian .img file should be ready to flash. As long as no errors/all went well, upgrading should be no issue (I tested it).
+
 
 --------------------------------------------------
 
