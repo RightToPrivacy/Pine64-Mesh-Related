@@ -1,9 +1,9 @@
 # Pine64-LoRa Progress Log (more later)
 Playing with Pine64's LoRa board/modules (documenting/sharing along the way)
 
-Disassembled the Gateway to find underlying A64 (Pine64) with added 16gb ram and related LoRa hardware on GPIO.
+Disassembled the Gateway to find (info added later after announced by Pine64 official)
 
-Proceeded to explore different A64 LTS (long term supply) images. This means standard A64 images will *not* boot and limits the available Linux distros greatly.
+Proceeded to explore different  images. Standard A64 images will *not* boot and limits the available Linux distros greatly.
 
 Settled on Armbian. A good solid Debian base.
 
@@ -11,7 +11,7 @@ Ran into issue using latest Armbian: a change in boot causing a failure to find 
 
 Found earlier release of Armbian (Feb 2) flashes to sdcard and boots. :)
 
-Compiled sx1302_hal.
+Compiled some stuff (more info after Pine64 gets chance to announce)
 
 --------------------------------------
 
