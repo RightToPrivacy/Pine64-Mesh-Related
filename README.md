@@ -17,6 +17,15 @@ Compiled some stuff (more info after Pine64 gets chance to announce)
 
 Fixed the boot problem in newer images using a patch I found on a post on Armbian forum.
 
+EDIT: I just uploaded patched image for anyone who wants to skip the patching process (for SoPine/LTS Pine64 based boards (including LoRa based Gateway)
+You can download that patched Armbian image for SoPine/LTS/LoRa Gatway (Pine64) link is here: 
+https://mega.nz/file/Wd5CGRhB#spBqSQrhLm_gIPtRexV9OOC8T3YoVk9VuHopFs4Ho9o
+
+-----------------------------------------------------------------------
+
+For those who want to implement the patch on their own follow below:
+
+
 PATCHING: INSTRUCTIONS: 
 
 1.) Extract this README/.dts file (found in this directory)
@@ -39,7 +48,7 @@ Nou your Armbian .img file should be ready to flash. As long as no errors/all we
 
 --------------------------------------------------
 
-
+Working on looking at drivers. Have compiled a bit. Documentation/packaging/setup online is all for Raspberry pi so the process continues...
 
 
 To be continued...
