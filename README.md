@@ -1,5 +1,5 @@
-# Pine64-LoRa Progress Log (more later)
-Playing with Pine64's LoRa board/modules (documenting/sharing along the way)
+# Pine64-Mesh Related Progress Log (more later)
+Playing with Pine64's board/and modules related to Semtech's LoRa and other Mesh related topics (documenting/sharing along the way)
 
 Disassembled the Gateway to find (info added later after announced by Pine64 official)
 
@@ -17,8 +17,8 @@ Compiled some stuff (more info after Pine64 gets chance to announce)
 
 Fixed the boot problem in newer images using a patch I found on a post on Armbian forum.
 
-EDIT: I just uploaded patched image for anyone who wants to skip the patching process (for SoPine/LTS Pine64 based boards (including LoRa based Gateway)
-You can download that patched Armbian image for SoPine/LTS/LoRa Gatway (Pine64) link is here: 
+EDIT: I just uploaded patched image for anyone who wants to skip the patching process (for SoPine/LTS Pine64 based boards (including Gateway)
+You can download that patched Armbian image for SoPine/LTS/Gateway (Pine64) link is here: 
 https://mega.nz/file/Wd5CGRhB#spBqSQrhLm_gIPtRexV9OOC8T3YoVk9VuHopFs4Ho9o
 
 -----------------------------------------------------------------------
