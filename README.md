@@ -94,8 +94,13 @@ Nou your Armbian .img file should be ready to flash. As long as no errors/all we
 
 --------------------------------------------------
 
-Working on looking at drivers. Have compiled a bit. Documentation/packaging/setup online is all for Raspberry pi so the process continues...
+Documentation/packaging/setup online is all for Raspberry pi so the process continues...
 
+UPDATE 5/2/2021: I forked Rakwireless' rak_common_for_gateway and have been editing the rak2287 SPI for Pine64 Gateway. You can find that here with instructions 
+I added for those interested (check the edited README.md):
+https://github.com/RightToPrivacy/rak_common_for_gateway
+
+If you follow the instructions there you should be able to get the concentrator to start. I also have the GPS working properly and registering correct coordinates based on those instructions (be sure to run your GPS antenna near a window if indoors).
 
 To be continued...
 
