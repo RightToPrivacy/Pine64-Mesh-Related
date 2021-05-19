@@ -102,6 +102,5 @@ https://github.com/RightToPrivacy/rak_common_for_gateway
 
 If you follow the instructions there you should be able to get the concentrator to start. I also have the GPS working properly and registering correct coordinates based on those instructions (be sure to run your GPS antenna near a window if indoors).
 
-To be continued...
 
-
+I have done an update video to cover steps and status over the first month: https://youtu.be/ex6ocr5TKB4
