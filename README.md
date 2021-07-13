@@ -22,7 +22,7 @@ https://mega.nz/file/nI42BCAD#oUWRJYg0UC4OwDBbScwuSjSkN3A8MHVj03uBRw0prjc
 * Starts up ready to login Chirpstack (web interface: http://IPaddress:8080)
 
 
-# SSH access:
+## SSH access:
 
 
 login: pine
@@ -31,7 +31,7 @@ password: SoPinePass!
 
 
 
-##CHIRPSTACK GATEWAY/NETWORK MANAGEMENT (web interface):
+## CHIRPSTACK GATEWAY/NETWORK MANAGEMENT (web interface):
 
 
 http://IPaddressOnLAN:8080
@@ -45,7 +45,7 @@ password admin
 *Make sure to change default passwords*
 
 
-##Useful Commands:
+## Useful Commands:
 
 
 gateway-config (configures gateway options including:
