@@ -1,6 +1,6 @@
 # Pine64-Mesh Related 
 
-#Deleted the earlier info to keep this relevant/clear.
+## Deleted the earlier info to keep this relevant/clear.
 
 UPDATE (July): Put together an Armbian image to share with below's rak_common_for_gateway fork preinstalled.
 
@@ -9,7 +9,7 @@ Example image of Armbian w/RAKWireless Chirpstack/TTN can be found here:
 https://mega.nz/file/nI42BCAD#oUWRJYg0UC4OwDBbScwuSjSkN3A8MHVj03uBRw0prjc
 
 
-#On Boot:
+## On Boot:
 
 * Armbian 5.10.34 (latest as of this posting)
 
@@ -22,7 +22,7 @@ https://mega.nz/file/nI42BCAD#oUWRJYg0UC4OwDBbScwuSjSkN3A8MHVj03uBRw0prjc
 * Starts up ready to login Chirpstack (web interface: http://IPaddress:8080)
 
 
-#SSH access:
+# SSH access:
 
 
 login: pine
@@ -31,7 +31,7 @@ password: SoPinePass!
 
 
 
-#CHIRPSTACK GATEWAY/NETWORK MANAGEMENT (web interface):
+##CHIRPSTACK GATEWAY/NETWORK MANAGEMENT (web interface):
 
 
 http://IPaddressOnLAN:8080
@@ -45,7 +45,7 @@ password admin
 *Make sure to change default passwords*
 
 
-#Useful Commands:
+##Useful Commands:
 
 
 gateway-config (configures gateway options including:
@@ -74,9 +74,9 @@ Gateway Software Fork installed for Pinedio Gateway: https://github.com/RightToP
 
 ---
 
-Older Updates:
+Other updates have been deleted to keep this space cleaner.
 
-UPDATE 5/2/2021: I forked Rakwireless' rak_common_for_gateway and have been editing the rak2287 SPI for Pine64 Gateway. You can find that here with instructions 
+UPDATE (May): I forked Rakwireless' rak_common_for_gateway and have been editing the rak2287 SPI for Pine64 Gateway. You can find that here with instructions 
 I added for those interested (check the edited README.md):
 https://github.com/RightToPrivacy/rak_common_for_gateway
 
