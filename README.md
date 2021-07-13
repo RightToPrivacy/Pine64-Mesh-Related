@@ -4,10 +4,11 @@
 
 UPDATE (July): Put together an Armbian image to share with below's rak_common_for_gateway fork preinstalled.
 
-Example image of Armbian w/RAKWireless Chirpstack/TTN can be found here:
+Uploaded an example image of Armbian w/RAKWireless Chirpstack/TTN can be found here:
 
 https://mega.nz/file/nI42BCAD#oUWRJYg0UC4OwDBbScwuSjSkN3A8MHVj03uBRw0prjc
 
+# Info For the above image download:
 
 ## On Boot:
 
