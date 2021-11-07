@@ -2,11 +2,11 @@
 
 ## Deleted the earlier info to keep this relevant/clear.
 
-UPDATE (July): Put together an Armbian image to share with below's rak_common_for_gateway fork preinstalled.
+Armbian image to share with below's rak_common_for_gateway fork preinstalled.
 
-Uploaded an example image of Armbian w/RAKWireless Chirpstack/TTN can be found here:
+Uploaded an example image of latest Armbian Pinedio Gateway image (w/RAKWireless Chirpstack/TTN preinstalled) can be found for download here:
+https://politictech.wordpress.com/2021/10/13/pinedio-armbian-image-chirpstack-ttn/ 
 
-https://mega.nz/file/nI42BCAD#oUWRJYg0UC4OwDBbScwuSjSkN3A8MHVj03uBRw0prjc
 
 # Info For the above image download:
 
@@ -26,7 +26,7 @@ https://mega.nz/file/nI42BCAD#oUWRJYg0UC4OwDBbScwuSjSkN3A8MHVj03uBRw0prjc
 ## SSH access:
 
 
-login: pine
+login: pinedio
 
 password: SoPinePass!
 
