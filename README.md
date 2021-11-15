@@ -2,10 +2,17 @@
 
 ## Deleted the earlier info to keep this relevant/clear.
 
-Armbian image to share with below's rak_common_for_gateway fork preinstalled.
+# UPDATE: Created and am sharing a ready to use PineDio (all in one) Gateway image (w/RAKWireless Chirpstack/TTN preinstalled) can be found for download here:
 
-Uploaded an example image of latest Armbian Pinedio Gateway image (w/RAKWireless Chirpstack/TTN preinstalled) can be found for download here:
-https://politictech.wordpress.com/2021/10/13/pinedio-armbian-image-chirpstack-ttn/ 
+https://politictech.wordpress.com/2021/11/09/new-pinedio-image-automatic-grow-to-disk/
+
+(Next See: https://lupyuen.github.io/articles/gateway?5#install-pinedio-gateway for tutorial with pictures!)
+
+### HARDWARE (PineDio Gateway)
+
+https://www.pine64.org (community)
+
+https://www.pine64.com (Pine64 Store to carry the PineDio Gateway)
 
 
 # Info For the above image download:
@@ -28,7 +35,7 @@ https://politictech.wordpress.com/2021/10/13/pinedio-armbian-image-chirpstack-tt
 
 login: pinedio
 
-password: SoPinePass!
+password: SoPinePass!!!
 
 
 
@@ -66,8 +73,7 @@ systemctl stop ttn-gateway
 systemctl disable ttn-gateway (disable
 
 
-
-Software (for above prepared image):
+## Software (for above prepared image):
 
 Armbian OS: https://www.armbian.com/download
 
