@@ -2,11 +2,13 @@
 
 ## Deleted the earlier info to keep this relevant/clear.
 
-# UPDATE: Created and am sharing a ready to use PineDio (all in one) Gateway image (w/RAKWireless Chirpstack/TTN preinstalled) can be found for download here:
+# UPDATE: Sharing a ready to use PineDio (all in one) Gateway image (w/RAKWireless Chirpstack/TTN preinstalled) can be found for download here:
 
-https://politictech.wordpress.com/2021/11/09/new-pinedio-image-automatic-grow-to-disk/
+https://www.buymeacoffee.com/politictech/pinedio-image-new-download (Blog Post)
 
-(Next See: https://lupyuen.github.io/articles/gateway?5#install-pinedio-gateway for tutorial with pictures!)
+https://politictech.wordpress.com/2021/11/09/new-pinedio-image-automatic-grow-to-disk/ (Backup Blog)
+
+(Next See: https://lupyuen.github.io/articles/gateway?5#install-pinedio-gateway great tutorial for this with pictures!)
 
 ### HARDWARE (PineDio Gateway)
 
