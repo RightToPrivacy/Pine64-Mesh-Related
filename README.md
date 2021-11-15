@@ -2,7 +2,7 @@
 
 ## Deleted the earlier info to keep this relevant/clear.
 
-# UPDATE: Sharing a ready to use PineDio (all in one) Gateway image (w/RAKWireless Chirpstack/TTN preinstalled) can be found for download here:
+# UPDATE: Sharing a ready to use PineDio (all in one) Gateway image [11.15.2021] (w/RAKWireless Chirpstack/TTN preinstalled) can be found for download here:
 
 https://www.buymeacoffee.com/politictech/pinedio-image-new-download (Blog Post)
 
