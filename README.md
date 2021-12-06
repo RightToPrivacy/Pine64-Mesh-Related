@@ -2,13 +2,14 @@
 
 ## Deleted the earlier info to keep this relevant/clear.
 
-# UPDATE: Sharing a ready to use PineDio (all in one) Gateway image [11.15.2021] (w/RAKWireless Chirpstack/TTN preinstalled) can be found for download here:
+# UPDATE: Sharing a ready to use PineDio (all in one) Gateway image [11.30.2021] (w/RAKWireless Chirpstack/TTN preinstalled) can be found for download here:
 
-https://www.buymeacoffee.com/politictech/pinedio-image-new-download (Blog Post)
+https://politictech.wordpress.com/2021/11/30/pinedio-mesh-net-gateway-new-improved-download-lora/ (my blog)
 
-https://politictech.wordpress.com/2021/11/09/new-pinedio-image-automatic-grow-to-disk/ (Backup Blog)
+Each copy flashed will grow to meet disk size, new set of ssh keys.
 
-(Next See: https://lupyuen.github.io/articles/gateway?5#install-pinedio-gateway great tutorial for this with pictures!)
+
+(Next See: https://lupyuen.github.io/articles/gateway?5#install-pinedio-gateway great tutorial for further setup to connect TTN this with pictures!)
 
 ### HARDWARE (PineDio Gateway)
 
@@ -89,7 +90,3 @@ UPDATE (May): I forked Rakwireless' rak_common_for_gateway and have been editing
 I added for those interested (check the edited README.md):
 https://github.com/RightToPrivacy/rak_common_for_gateway
 
-If you follow the instructions there you should be able to get the concentrator to start. I also have the GPS working properly and registering correct coordinates based on those instructions (be sure to run your GPS antenna near a window if indoors).
-
-
-I have done an update video to cover steps and status over the first month: https://youtu.be/ex6ocr5TKB4
