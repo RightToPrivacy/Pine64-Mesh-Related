@@ -1,8 +1,8 @@
-# Pine64-Mesh Related (Download Image For PineDio Gateway)
+# Pine64-Mesh Related (Download Image For PineDio Gateway Armbian/Debian Based Image With Chirpstack Preinstalled/Running By Default, TTN ready (optional)
 
 #### Deleted the earlier info to keep this relevant/clear.
 
-## UPDATE: Sharing ready to use PineDio (all in one) Gateway image [11.30.2021] (w/RAKWireless Chirpstack/TTN preinstalled but optional) can be found for download here (Armbian with this rak_common_for_gateway preinstalled and hardware enabled, concentrator/GPS started) See below.
+## UPDATE: Sharing ready to use PineDio (all in one) Gateway image [11.30.2021] 
 
 ### Download Post + checksums/credentials:
 
