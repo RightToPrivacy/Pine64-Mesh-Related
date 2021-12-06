@@ -1,26 +1,27 @@
-# Pine64-Mesh Related 
+# Pine64-Mesh Related (Download Image For PineDio Gateway)
 
-## Deleted the earlier info to keep this relevant/clear.
+#### Deleted the earlier info to keep this relevant/clear.
 
-# UPDATE: Sharing a ready to use PineDio (all in one) Gateway image [11.30.2021] (w/RAKWireless Chirpstack/TTN preinstalled) can be found for download here:
+## UPDATE: Sharing ready to use PineDio (all in one) Gateway image [11.30.2021] (w/RAKWireless Chirpstack/TTN preinstalled but optional) can be found for download here (Armbian with this rak_common_for_gateway preinstalled and hardware enabled, concentrator/GPS started) See below.
 
-https://politictech.wordpress.com/2021/11/30/pinedio-mesh-net-gateway-new-improved-download-lora/ (my blog)
+### Download Post + checksums/credentials:
 
-Each copy flashed will grow to meet disk size, new set of ssh keys.
+SHA1: 12cc3064f8e47c54e2ad783e16f879277f757052
+
+SHA256: 5f5572f408e1be306fb5c8286a4d1cb6d56e3801d46b28364de19b9fffdac61e
+
+#### DOWNLOAD LOCATION 1: https://politictech.wordpress.com/2021/11/30/pinedio-mesh-net-gateway-new-improved-download-lora/ (Blog post)
+
+#### DOWNLOAD LOCATION 2: https://www.buymeacoffee.com/politictech/pinedio-image-new-download (other blog with posts organized by category)
+
+##### On the first boot rootfs will grow root to meet size of your disk, and generate set of fresh ssh, unique for each flashed copy.
+
+(After flashing, recommended to read: https://lupyuen.github.io/articles/gateway?5#install-pinedio-gateway great tutorial for further configuration with pictures!)
 
 
-(Next See: https://lupyuen.github.io/articles/gateway?5#install-pinedio-gateway great tutorial for further setup to connect TTN this with pictures!)
+## Info For the above PineDio gateway image download:
 
-### HARDWARE (PineDio Gateway)
-
-https://www.pine64.org (community)
-
-https://www.pine64.com (Pine64 Store to carry the PineDio Gateway)
-
-
-# Info For the above image download:
-
-## On Boot:
+### On Boot:
 
 * Armbian 5.10.34 (latest as of this posting)
 
@@ -32,8 +33,16 @@ https://www.pine64.com (Pine64 Store to carry the PineDio Gateway)
 
 * Starts up ready to login Chirpstack (web interface: http://IPaddress:8080)
 
+* Chirpstack updated (NEW 11.30.2021)
 
-## SSH access:
+* On your first boot the filesystem grows to meet the disk size (NEW 11.30.2021)
+
+* PineDio ascii art welcome message on your ssh/terminal logins (NEW 11.30.2021)
+
+* Unique SSH keys generated on each flashed disk (generated during first boot) (NEW 11.30.2021)
+
+
+### SSH access:
 
 
 login: pinedio
@@ -41,8 +50,7 @@ login: pinedio
 password: SoPinePass!!!
 
 
-
-## CHIRPSTACK GATEWAY/NETWORK MANAGEMENT (web interface):
+### CHIRPSTACK GATEWAY/NETWORK MANAGEMENT (web interface):
 
 
 http://IPaddressOnLAN:8080
@@ -56,10 +64,10 @@ password admin
 *Make sure to change default passwords*
 
 
-## Useful Commands:
+### Useful Commands:
 
 
-gateway-config (configures gateway options including:
+gateway-config (configures gateway options including):
 
 - channel (specific to your area)
  
@@ -80,13 +88,15 @@ systemctl disable ttn-gateway (disable
 
 Armbian OS: https://www.armbian.com/download
 
-Gateway Software Fork installed for Pinedio Gateway: https://github.com/RightToPrivacy/rak_co...or_gateway (fork edit of https://github.com/RAKWireless/rak_common_for_gateway [for raspberry pi's]) 
+Gateway Software Fork installed for Pinedio Gateway: https://github.com/RightToPrivacy/rak_common_for_gateway (fork edit of https://github.com/RAKWireless/rak_common_for_gateway [originally for raspberry pi's]) 
 
 ---
 
+### EARLY UPDATES
+
 Other updates have been deleted to keep this space cleaner.
 
-UPDATE (May): I forked Rakwireless' rak_common_for_gateway and have been editing the rak2287 SPI for Pine64 Gateway. You can find that here with instructions 
+#### (May): I forked Rakwireless' rak_common_for_gateway and have been editing the rak2287 SPI for Pine64 Gateway. You can find that here with instructions 
 I added for those interested (check the edited README.md):
 https://github.com/RightToPrivacy/rak_common_for_gateway
 
