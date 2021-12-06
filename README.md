@@ -1,4 +1,4 @@
-# Pine64-Mesh Related (Download Image For PineDio Gateway Armbian/Debian Based Image With Chirpstack Preinstalled/Running By Default, TTN ready (optional)
+## Pine64-Mesh Related (Download Image For PineDio Gateway Armbian/Debian Based Image With Chirpstack Preinstalled/Running By Default, TTN ready (optional)
 
 #### Deleted the earlier info to keep this relevant/clear.
 
@@ -84,7 +84,7 @@ systemctl stop ttn-gateway
 systemctl disable ttn-gateway (disable
 
 
-## Software (for above prepared image):
+## Software (running inside above prepared image):
 
 Armbian OS: https://www.armbian.com/download
 
