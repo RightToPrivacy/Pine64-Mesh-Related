@@ -2,17 +2,15 @@
 
 #### Deleted the earlier info to keep this relevant/clear.
 
-## UPDATE: Sharing ready to use PineDio (all in one) Gateway image [11.30.2021] 
+### UPDATE: Sharing ready to use PineDio (all in one) Gateway image [UPDATED: 01.01.2022] 
 
 ### Download Post + checksums/credentials:
 
-SHA1: 12cc3064f8e47c54e2ad783e16f879277f757052
+    SHA1: fe0ebdb2c3f71f50b5d070ce6561c86a07678da5
 
-SHA256: 5f5572f408e1be306fb5c8286a4d1cb6d56e3801d46b28364de19b9fffdac61e
+    SHA256: 53de0febbf0f0a42e8da79576c8af518e591d227545a41a4db538acae0ae8a92
 
-#### DOWNLOAD LOCATION 1: https://politictech.wordpress.com/2021/11/30/pinedio-mesh-net-gateway-new-improved-download-lora/ (Blog post)
-
-#### DOWNLOAD LOCATION 2: https://www.buymeacoffee.com/politictech/pinedio-image-new-download (other blog with posts organized by category)
+#### DOWNLOAD LOCATION:  https://mega.nz/file/yFAFnYYK#tcMNFXdwNberzOjOKACj4lKUy6NanduY6Vxdf0jF0vg
 
 ##### On the first boot rootfs will grow root to meet size of your disk, and generate set of fresh ssh, unique for each flashed copy.
 
