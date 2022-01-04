@@ -2,50 +2,47 @@
 
 #### Deleted the earlier info to keep this relevant/clear.
 
-### UPDATE: Sharing ready to use PineDio (all in one) Gateway image [UPDATED: 01.01.2022] 
+### UPDATE: Sharing ready to use PineDio (all in one) Gateway image [UPDATED: 01.04.2022] 
 
 ### Download Post + checksums/credentials:
 
-    SHA1: fe0ebdb2c3f71f50b5d070ce6561c86a07678da5
+    SHA1: 2386916d8d71122b4b7d0c8de1a07af120b07b2c
 
-    SHA256: 53de0febbf0f0a42e8da79576c8af518e591d227545a41a4db538acae0ae8a92
+    SHA256: 03f37a745d088139682d55fb4befb9a5348c1b6513b679dd03ba069576d2b86f
 
-#### DOWNLOAD LOCATION:  https://mega.nz/file/yFAFnYYK#tcMNFXdwNberzOjOKACj4lKUy6NanduY6Vxdf0jF0vg
+#### DOWNLOAD LOCATION:  https://mega.nz/file/vJxAABJZ#FpH4gzpy9QEqh3sJAYTz7tIP7aCE8XaC8kBvX2t4ZKc
 
 ##### On the first boot rootfs will grow root to meet size of your disk, and generate set of fresh ssh, unique for each flashed copy.
 
-(After flashing, recommended to read: https://lupyuen.github.io/articles/gateway?5#install-pinedio-gateway great tutorial for further configuration with pictures!)
+*** Interested in The Things Network? (After flashing, recommended guide start to finish: https://lupyuen.github.io/articles/gateway?5#install-pinedio-gateway great tutorial for further configuration with pictures!) Thank You Lup Yuen Lee! 
 
 
 ## Info For the above PineDio gateway image download:
 
 ### On Boot:
 
-* Armbian 5.10.34 (latest as of this posting)
+* Armbian (Debian)
 
-* Devices/hardware setup
+* Devices/hardware setup (Concentrator/GPS RAK2287)
 
-* Starts GPS (be sure to have reliable/proper antenna outside or at a window)
+* Starts up the Concentrator/GPS (use reliable/proper antenna outside or at window)
 
-* Starts up the Concentrator
+* Chirpstack (web interface: http://IPaddress:8080) running - name/config gateway/LoRaWAN inside
 
-* Starts up ready to login Chirpstack (web interface: http://IPaddress:8080)
+* TTN setup available in gateway-config command channel setup (not enabled by default - Chirpstack is running)
 
-* Chirpstack updated (NEW 11.30.2021)
+* On your first boot the filesystem grows to meet the disk size (service expands on boot then disables itself)
 
-* On your first boot the filesystem grows to meet the disk size (NEW 11.30.2021)
+* PineDio ascii art welcome message on your ssh/terminal logins 
 
-* PineDio ascii art welcome message on your ssh/terminal logins (NEW 11.30.2021)
-
-* Unique SSH keys generated on each flashed disk (generated during first boot) (NEW 11.30.2021)
+* Unique SSH keys generated on each flashed disk (generated during first boot) 
 
 
 ### SSH access:
 
 
-login: pinedio
-
-password: SoPinePass!!!
+    login: pinedio
+    password: SoPinePass!!!
 
 
 ### CHIRPSTACK GATEWAY/NETWORK MANAGEMENT (web interface):
@@ -54,9 +51,8 @@ password: SoPinePass!!!
 http://IPaddressOnLAN:8080
 
 
-login: admin
-
-password admin
+    login: admin
+    password admin
 
 
 *Make sure to change default passwords*
