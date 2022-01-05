@@ -12,7 +12,7 @@
 
 #### DOWNLOAD LOCATION:  https://mega.nz/file/vJxAABJZ#FpH4gzpy9QEqh3sJAYTz7tIP7aCE8XaC8kBvX2t4ZKc
 
-rootfs will grow root to meet size of your disk, and generate set of fresh ssh, unique for each flashed copy.
+rootfs will grow root to meet size of your disk on next boot, and generate set of fresh ssh, unique for each flashed copy on first boot.
 
 *** Interested in The Things Network? (After flashing, recommended guide start to finish: https://lupyuen.github.io/articles/gateway?5#install-pinedio-gateway great tutorial for further configuration with pictures!) Thank You Lup Yuen Lee! 
 
@@ -31,7 +31,7 @@ rootfs will grow root to meet size of your disk, and generate set of fresh ssh, 
 
 * TTN setup available in gateway-config command channel setup (not enabled by default - Chirpstack is running)
 
-* On your first boot the filesystem grows to meet the disk size (service expands on boot then disables itself)
+* filesystem grows to meet the disk size (service expands on boot then disables itself)
 
 * PineDio ascii art welcome message on your ssh/terminal logins 
 
@@ -88,7 +88,7 @@ Gateway Software Fork installed for Pinedio Gateway: https://github.com/RightToP
 
 ### EARLY UPDATES
 
-Other updates have been deleted to keep this space cleaner.
+Older updates have been deleted to keep this space cleaner.
 
 #### (May): I forked Rakwireless' rak_common_for_gateway and have been editing the rak2287 SPI for Pine64 Gateway. You can find that here with instructions 
 I added for those interested (check the edited README.md):
