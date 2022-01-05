@@ -4,6 +4,13 @@
 
 ### UPDATE: Sharing ready to use PineDio (all in one) Gateway image [UPDATED: 01.04.2022] 
 
+#### Important Note: Previous image from 11.30.2021 had log files deleted to protect personal device identifiers from being shared with the world. 
+#### This caused an issue with Redis-server starting (all other services recreate their logs. This image has the log file/dir in place, redis starts as normal.
+#### If you have previous image, follow instructions below to recreate redis log, to ensure Chirpstack runs fully with redis:
+
+    mkdir /var/log/redis && touch /var/log/redis/redis-server.log && chown redis /var/log/redis /var/log/redis/redis-server.log && systemctl restart redis-server
+    (as mentioned the above command not needed for this 1.04.2022 image)
+
 ### Download Post + checksums/credentials:
 
     SHA1: 2386916d8d71122b4b7d0c8de1a07af120b07b2c
