@@ -6,8 +6,10 @@
 
 #### Important/Big updates covered on video channels and/or Blog: https://www.buymeacoffee.com/politictech/posts (completely public - don't mind domain name)
 
-#### Important Note: Previous image from 11.30.2021 had log files deleted to protect personal device identifiers from being shared with the world. 
-#### This caused an issue with Redis-server starting (all other services recreate their logs. This image has the log file/dir in place, redis starts as normal.
+#### Important Note: A previous image from 11.30.2021 had log files deleted (to prevent device identifiers from being shared with the world). 
+#### This caused issue with Redis-server start (all other services recreate log dir. 
+
+#### FIXED IN THIS IMAGE: This image has the log file/dir in place, redis starts as normal.
 #### If you have previous image, simply run line below to recreate redis log, starting/bringing back full Chirpstack function:
 
     mkdir /var/log/redis && touch /var/log/redis/redis-server.log && chown redis /var/log/redis /var/log/redis/redis-server.log && systemctl restart redis-server
