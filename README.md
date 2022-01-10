@@ -2,18 +2,7 @@
 
 #### Deleted the earlier info to keep this relevant/clear.
 
-### UPDATE: Sharing ready to use PineDio (all in one) Gateway image [UPDATED: 01.04.2022] 
-
-#### Important/Big updates covered on video channels and/or Blog: https://www.buymeacoffee.com/politictech/posts (completely public - don't mind domain name)
-
-#### Important Note: A previous image from 11.30.2021 had log files deleted (to prevent device identifiers from being shared with the world). 
-#### This caused issue with Redis-server start (all other services recreate log dir. 
-
-#### FIXED IN THIS IMAGE: This image has the log file/dir in place, redis starts as normal.
-#### If you have previous image, simply run line below to recreate redis log, starting/bringing back full Chirpstack function:
-
-    mkdir /var/log/redis && touch /var/log/redis/redis-server.log && chown redis /var/log/redis /var/log/redis/redis-server.log && systemctl restart redis-server
-    (as mentioned the above command not needed for this 1.04.2022 image)
+### UPDATE: ready to use PineDio (all in one) Gateway image [UPDATED: 01.04.2022] 
 
 ### LATEST PINEDIO GATEWAY DOWNLOAD LINK/CREDENTIALS + CHECKSUMS:
 
@@ -72,28 +61,31 @@ http://IPaddressOnLAN:8080
 ### Useful Commands:
 
 
-gateway-config (configures gateway options including):
+    gateway-config (configures gateway options including):
+    
+- switch between private Chirpstack LoRaWAN and (optional) TheThingsNetwork (TTN)
 
-- channel (specific to your area)
+- channel/freq (specific to your area)
  
-- concentrator/GPS specific: packet forwarder config (defaults set for pine64 Pinedio),
+- concentrator/GPS specific: edit packet forwarder config (defaults set for pine64 Pinedio),
 
-- switch between Chirpstack local and TTN
+    journalctl | grep -i eui (grab gateway eui)
 
-journalctl | grep -i eui (grab gateway eui)
+    systemctl status ttn-gateway (check your gateway service status)
 
-systemctl status ttn-gateway (check your gateway service status)
+    systemctl stop ttn-gateway
 
-systemctl stop ttn-gateway
+    systemctl disable ttn-gateway (disable
 
-systemctl disable ttn-gateway (disable
+#### Important/Big updates covered on video channels and/or Blog: https://www.buymeacoffee.com/politictech/posts (completely public - don't mind domain name)
 
+#### Most blog posts mirrored at https://politictech.wordpress.com (not all total posts, but all PineDio image related posts will also be here)
 
-## Software (running inside above prepared image):
+## Software (What's running inside above prepared image):
 
 Armbian OS: https://www.armbian.com/download
 
-Gateway Software Fork installed for Pinedio Gateway: https://github.com/RightToPrivacy/rak_common_for_gateway (fork edit of https://github.com/RAKWireless/rak_common_for_gateway [originally for raspberry pi's]) 
+Gateway Software Fork changed for the A64 LTS (Pinedio Gateway + RAK2287 hat): https://github.com/RightToPrivacy/rak_common_for_gateway (edit of https://github.com/RAKWireless/rak_common_for_gateway [originally for raspberry pi's]) 
 
 ---
 
@@ -101,7 +93,6 @@ Gateway Software Fork installed for Pinedio Gateway: https://github.com/RightToP
 
 Older updates have been deleted to keep this space cleaner.
 
-#### (May): I forked Rakwireless' rak_common_for_gateway and have been editing the rak2287 SPI for Pine64 Gateway. You can find that here with instructions 
-I added for those interested (check the edited README.md):
+#### (May): forked Rakwireless' rak_common_for_gateway and edited for the A64 LTS + rak2287 SPI (PineDio Gateway). You can find that here:
 https://github.com/RightToPrivacy/rak_common_for_gateway
 
