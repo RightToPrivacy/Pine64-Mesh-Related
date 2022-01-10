@@ -1,4 +1,4 @@
-## Pine64-Mesh Related (Download Image For PineDio Gateway Armbian/Debian Based Image With Chirpstack Preinstalled/Running By Default, TTN ready (optional)
+## Pine64-Mesh Related (Image For PineDio Gateway Armbian/Debian With Chirpstack Preinstalled/Running By Default, TTN ready (optional)
 
 #### Deleted the earlier info to keep this relevant/clear.
 
