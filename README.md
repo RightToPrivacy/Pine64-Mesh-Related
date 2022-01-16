@@ -5,14 +5,13 @@
 ### UPDATE: ready to use PineDio (all in one) Gateway image [UPDATED: 01.04.2022] 
 
 ### LATEST PINEDIO GATEWAY DOWNLOAD LINK/CREDENTIALS + CHECKSUMS:
+(PineDio_RAK_Armbian_01-16-2022.img.xz)
 
-    SHA1: 2386916d8d71122b4b7d0c8de1a07af120b07b2c
+    SHA1: f42b362e48777dd7614275089426300a7650fee4
 
-    SHA256: 03f37a745d088139682d55fb4befb9a5348c1b6513b679dd03ba069576d2b86f
+    SHA256: 9c51b26709453e5f43ed1343e501293d3e3665010645bb40555de85cd032fc19
 
-#### DOWNLOAD LOCATION:  https://mega.nz/file/vJxAABJZ#FpH4gzpy9QEqh3sJAYTz7tIP7aCE8XaC8kBvX2t4ZKc
-
-rootfs will grow root to meet size of your disk on next boot, and generate set of fresh ssh, unique for each flashed copy on first boot.
+#### DOWNLOAD LOCATION:  https://mega.nz/file/jUYjCYqD#QMXDHNRv5RL3UT6nOgLCx-tEGhkFst7VTWnbVoC3Kz0
 
 *** Interested in The Things Network? (After flashing, recommended guide start to finish: https://lupyuen.github.io/articles/gateway?5#install-pinedio-gateway great tutorial for further configuration with pictures!) Thank You Lup Yuen Lee! 
 
