@@ -26,9 +26,9 @@
 
 * Starts up the Concentrator/GPS (use reliable/proper antenna outside or at window)
 
-* Chirpstack (web interface: http://IPaddress:8080) running - name/config gateway/LoRaWAN inside
+* Chirpstack (web interface: http://IPaddress:8080) easy enable inside gateway-config command
 
-* TTN setup available in gateway-config command channel setup (not enabled by default - Chirpstack is running)
+* TTN setup available in gateway-config command channel setup
 
 * filesystem grows to meet the disk size (service expands on boot then disables itself)
 
