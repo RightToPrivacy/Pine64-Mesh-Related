@@ -2,7 +2,7 @@
 
 #### Deleted the earlier info to keep this relevant/clear.
 
-### UPDATE: ready to use PineDio (all in one) Gateway image [UPDATED: 01.04.2022] 
+### UPDATE: ready to use PineDio (all in one) Gateway image [UPDATED: 01.16.2022] 
 
 ### LATEST PINEDIO GATEWAY DOWNLOAD LINK/CREDENTIALS + CHECKSUMS:
 (PineDio_RAK_Armbian_01-16-2022.img.xz)
