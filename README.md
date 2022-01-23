@@ -68,9 +68,9 @@ http://IPaddressOnLAN:8080
     
 - switch between Chirpstack (private LoRaWAN) and (optional) TheThingsNetwork (TTN)
 
-    Inside the 'gateway-config' command, you can switch between Chirpstack (your own LoRaWAN) and TTN (TheThingsNetwork), simply select:
-    "Setup RAK Gateway Channel Plan" -> "Server Is Other Server" (Chirpstack LoRaWAN), or for using TTN, select "Server Is TTN".
-    Select Channel/Frequency (specific to your area)
+      Inside the 'gateway-config' command, you can switch between Chirpstack (your own LoRaWAN) and TTN (TheThingsNetwork), simply select:
+      "Setup RAK Gateway Channel Plan" -> "Server Is Other Server" (Chirpstack LoRaWAN), or for using TTN, select "Server Is TTN".
+      Select Channel/Frequency (specific to your area)
  
 - concentrator/GPS specific: edit packet forwarder config (defaults set for pine64 Pinedio),
 
