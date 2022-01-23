@@ -4,7 +4,11 @@
 
 ### UPDATE: ready to use PineDio (all in one) Gateway image [UPDATED: 01.16.2022] 
 
-### LATEST PINEDIO GATEWAY DOWNLOAD LINK/CREDENTIALS + CHECKSUMS:
+#### To Make Updates To Image Including Chirpstack (and more) issue:
+
+    sudo apt update && sudo apt full-upgrade
+
+### LATEST UPLOADED PINEDIO GATEWAY DOWNLOAD LINK/CREDENTIALS + CHECKSUMS:
 (PineDio_RAK_Armbian_01-16-2022.img.xz)
 
     SHA1: f42b362e48777dd7614275089426300a7650fee4
@@ -26,7 +30,7 @@
 
 * Starts up the Concentrator/GPS (use reliable/proper antenna outside or at window)
 
-* Chirpstack (web interface: http://IPaddress:8080) easy enable inside gateway-config command
+* Chirpstack (web interface: http://IPaddress:8080) easy enable inside gateway-config command - select Channel
 
 * TTN setup available in gateway-config command channel setup
 
@@ -44,7 +48,7 @@
     password: SoPinePass!!!
 
 
-### CHIRPSTACK GATEWAY/NETWORK MANAGEMENT (web interface):
+### CHIRPSTACK GATEWAY/NETWORK MANAGEMENT (web interface - make sure enabled inside gateway-config command):
 
 
 http://IPaddressOnLAN:8080
@@ -62,9 +66,11 @@ http://IPaddressOnLAN:8080
 
     gateway-config (configures gateway options including):
     
-- switch between private Chirpstack LoRaWAN and (optional) TheThingsNetwork (TTN)
+- switch between Chirpstack (private LoRaWAN) and (optional) TheThingsNetwork (TTN)
 
-- channel/freq (specific to your area)
+    Inside the 'gateway-config' command, you can switch between Chirpstack (your own LoRaWAN) and TTN (TheThingsNetwork), simply select:
+    "Setup RAK Gateway Channel Plan" -> "Server Is Other Server" (Chirpstack LoRaWAN), or for using TTN, select "Server Is TTN".
+    Select Channel/Frequency (specific to your area)
  
 - concentrator/GPS specific: edit packet forwarder config (defaults set for pine64 Pinedio),
 
@@ -88,10 +94,10 @@ Gateway Software Fork changed for the A64 LTS (Pinedio Gateway + RAK2287 hat): h
 
 ---
 
-### EARLY UPDATES
+### EARLIER RELATED UPDATES
 
 Older updates have been deleted to keep this space cleaner.
 
-#### (May): forked Rakwireless' rak_common_for_gateway and edited for the A64 LTS + rak2287 SPI (PineDio Gateway). You can find that here:
+#### (May): forked Rakwireless' rak_common_for_gateway. Edited for the A64 LTS + rak2287 SPI (PineDio Gateway). You can find that fork here:
 https://github.com/RightToPrivacy/rak_common_for_gateway
 
