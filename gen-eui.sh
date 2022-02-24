@@ -1,8 +1,8 @@
 #!/bin/bash
 #
-# simple command generates valid new EUI
+# simple command to generate valid/random new EUI
 #
-# Change oui variable if you like - this uses default from Pine64 board
+# prints out configuration file for you to edit
 #
 # righttoprivacy@tutanota.com
 #
@@ -22,5 +22,5 @@ sleep .5
 
 echo -e "NEW EUI IS $newEUI.\n"
 
-echo -e "You can replace current in $localconf\n"
+echo -e "You can replace current in $localconf\n" && sleep .5
 echo -e "Then restart gateway."
