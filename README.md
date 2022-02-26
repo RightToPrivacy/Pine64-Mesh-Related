@@ -1,21 +1,14 @@
-## Pine64-Mesh Related (Image For PineDio Gateway Armbian/Debian With Chirpstack Preinstalled (The Things Network TTN/Chirpstack both options)
+## Pine64-Mesh Related (Image For PineDio Gateway Armbian/Debian With Chirpstack Preinstalled (Switch between TheThingsNetwork + Chirpstack LoRaWAN)
 
-#### Deleted the earlier info to keep this relevant/clear.
-
-### UPDATE: ready to use PineDio (all in one) Gateway image [UPDATED: 01.16.2022] 
-
-#### To Make Updates To Image Including Chirpstack (and more) issue:
-
-    sudo apt update && sudo apt full-upgrade
+### Stable, ready to use PineDio (all in one) Gateway image [UPDATED: 02.26.2022] 
 
 ### LATEST UPLOADED PINEDIO GATEWAY DOWNLOAD LINK/CREDENTIALS + CHECKSUMS:
-(PineDio_RAK_Armbian_01-16-2022.img.xz)
+(PineDio-RAK-Armbian_02-26-2022.img.xz)
 
-    SHA1: f42b362e48777dd7614275089426300a7650fee4
+    SHA256: 83c2fae06579c2101502963289682295b83164d322ae7359c7c584f0b0e57426
+    SHA512: c5e8cb0b657ee02aa15c60dc7cab7b9e4a7785da548541c6a0eaf4ee7241600c18e339776d94731c5130ccceea4da4aad159af521c4f484c1a550a39fe707d95
 
-    SHA256: 9c51b26709453e5f43ed1343e501293d3e3665010645bb40555de85cd032fc19
-
-#### DOWNLOAD LOCATION:  https://mega.nz/file/jUYjCYqD#QMXDHNRv5RL3UT6nOgLCx-tEGhkFst7VTWnbVoC3Kz0
+#### DOWNLOAD LOCATION:  https://mega.nz/file/CIoykITD#S_NQx9wRG05CTT7TdzBX8u24bGiVzT341VPZakycaw8
 
 *** Interested in The Things Network? (After flashing, recommended guide start to finish: https://lupyuen.github.io/articles/gateway?5#install-pinedio-gateway great tutorial for further configuration with pictures!) Thank You Lup Yuen Lee! 
 
@@ -69,24 +62,36 @@ http://IPaddressOnLAN:8080
 - switch between Chirpstack (private LoRaWAN) and (optional) TheThingsNetwork (TTN)
 
       Inside the 'gateway-config' command, you can switch between Chirpstack (your own LoRaWAN) and TTN (TheThingsNetwork), simply select:
-      "Setup RAK Gateway Channel Plan" -> "Server Is Other Server" (Chirpstack LoRaWAN), or for using TTN, select "Server Is TTN".
+      "Setup RAK Gateway Channel Plan" -> "Server Is Other Server" (<- For Chirpstack LoRaWAN), or for using TTN, select "Server Is TTN".
       Select Channel/Frequency (specific to your area)
  
-- concentrator/GPS specific: edit packet forwarder config (defaults set for pine64 Pinedio),
+- Concentrator + GPS specific: edit packet forwarder config (defaults set for pine64 Pinedio),
 
-    journalctl | grep -i eui (grab gateway eui)
+    gateway-config (set network, frequency/channel, edit packet forwarder, restart pkt forward)
+
+    gateway-version (show Gateway ID/EUI)
+    
+    gen-eui (generate/display randomly generated EUI option - simply add to displayed file to use it)
 
     systemctl status ttn-gateway (check your gateway service status)
 
     systemctl stop ttn-gateway
 
     systemctl disable ttn-gateway (disable
+    
+    systemctl restart ttn-gateway (restart packet forwarder/concentrator/GPS)
 
-#### Important/Big updates covered on video channels and/or Blog: https://www.buymeacoffee.com/politictech/posts (completely public - don't mind domain name)
+#### Important updates / tutorials covered here: https://www.buymeacoffee.com/politictech/posts 
 
-#### Most blog posts mirrored at https://politictech.wordpress.com (not all total posts, but all PineDio image related posts will also be here)
+#### Most above linked blog posts also mirrored at https://politictech.wordpress.com (whichever you prefer)
 
-## Software (What's running inside above prepared image):
+## HARDWARE: 
+
+Pine64: https://www.pine64.org (Pine64 community - main manufacture - completed gateway package + other PineDio offers)
+Pine64 Store: https://www.pine64.com (PineDio hardware)
+RAK2287: Designers/makers of the RAKwireless RAK2287 + GPS concentrator
+
+## SOFTWARE:
 
 Armbian OS: https://www.armbian.com/download
 
