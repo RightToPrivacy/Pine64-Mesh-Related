@@ -1,6 +1,6 @@
 ## Pine64-Mesh Related (Image For PineDio Gateway Armbian/Debian With Chirpstack Preinstalled (Switch between TheThingsNetwork + Chirpstack LoRaWAN)
 
-(Newer / Updated Image Will Be Shared Coming Up As I Catch Up - likely next couple weeks)
+(Note: April 4, 2022: Newer / Updated Image Will Be Shared Coming Up As I Catch Up - likely over next couple weeks)
 
 ### Stable, ready to use PineDio (all in one) Gateway image [UPDATED: 02.26.2022] 
 
