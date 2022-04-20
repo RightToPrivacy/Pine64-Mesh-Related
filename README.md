@@ -1,6 +1,6 @@
 ## Pine64-Mesh Related (Image For PineDio Gateway Armbian/Debian With Chirpstack Preinstalled (Switch between TheThingsNetwork + Chirpstack LoRaWAN)
 
-(Note: April 4, 2022: Newer / Updated Image Will Be Shared Coming Up As I Catch Up - likely over next couple weeks)
+(Note: For image below, upgrade software with: 'sudo apt update && sudo apt dist-upgrade -y' (to update chirpstack and other software). Improvements / changes will be updated here (as needed basis atm). File an issue (here) if you notice a problem with the download below.)
 
 ### Stable, ready to use PineDio (all in one) Gateway image [UPDATED: 02.26.2022] 
 
@@ -83,9 +83,9 @@ http://IPaddressOnLAN:8080
     
     systemctl restart ttn-gateway (restart packet forwarder/concentrator/GPS)
 
-#### Important updates / tutorials covered here: https://www.buymeacoffee.com/politictech/posts 
+#### Visit My Linux / FOSS Tutorials + More: https://www.buymeacoffee.com/politictech/posts 
 
-#### Most above linked blog posts also mirrored at https://politictech.wordpress.com (whichever you prefer)
+(Most above linked blog posts also mirrored at https://politictech.wordpress.com (whichever page you prefer))
 
 ## HARDWARE: 
 
@@ -95,7 +95,7 @@ RAK2287: Designers/makers of the RAKwireless RAK2287 + GPS concentrator
 
 ## SOFTWARE:
 
-Armbian OS: https://www.armbian.com/download
+Armbian OS: https://www.armbian.com 
 
 Gateway Software Fork changed for the A64 LTS (Pinedio Gateway + RAK2287 hat): https://github.com/RightToPrivacy/rak_common_for_gateway (edit of https://github.com/RAKWireless/rak_common_for_gateway [originally for raspberry pi's]) 
 
