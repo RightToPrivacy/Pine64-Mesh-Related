@@ -1,8 +1,8 @@
 ## Pine64-Mesh Related (Image For PineDio Gateway Armbian/Debian With Chirpstack Preinstalled (Switch between TheThingsNetwork + Chirpstack LoRaWAN)
 
-(Note: For image below, upgrade software with: 'sudo apt update && sudo apt dist-upgrade -y' (to update chirpstack and other software). Improvements / changes will be updated here (as needed basis atm). File an issue (here) if you notice a problem with the download below.)
+File an issue (here) if you notice a problem with the download below.)
 
-### Stable, ready to use PineDio (all in one) Gateway image [UPDATED: 02.26.2022] 
+### Stable, ready to use PineDio (all in one) Gateway image 
 
 ### LATEST UPLOADED PINEDIO GATEWAY DOWNLOAD LINK/CREDENTIALS + CHECKSUMS:
 (PineDio-RAK-Armbian_02-26-2022.img.xz)
