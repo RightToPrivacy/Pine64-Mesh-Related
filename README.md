@@ -2,17 +2,19 @@
 
 File an issue (here) if you notice a problem with the download below.)
 
-### Stable, ready to use PineDio (all in one) Gateway image 
+### Ready to use PineDio (all in one) Gateway image (Use Either TheThingsNetwork / Chirpstack)
 
 ### LATEST UPLOADED PINEDIO GATEWAY DOWNLOAD LINK/CREDENTIALS + CHECKSUMS:
-(PineDio-RAK-Armbian_02-26-2022.img.xz)
+(PineDio-RAK-Armbian_05-01-2022.img.xz) (May 1st, 2022)
 
-    SHA256: 83c2fae06579c2101502963289682295b83164d322ae7359c7c584f0b0e57426
-    SHA512: c5e8cb0b657ee02aa15c60dc7cab7b9e4a7785da548541c6a0eaf4ee7241600c18e339776d94731c5130ccceea4da4aad159af521c4f484c1a550a39fe707d95
+    SHA256: 9a58939f999168606800b8a2b2a94c9673cd4a48962361e007e6f7e41262707c
+    SHA512: a02414f44a2f6caf7f769f3dcd0ba5a2d68e1f8adf9e30bbe5b5d59eff7e41ee94603a71c80b26ad1d6e264d95b6391a414d7d1d2012bb156f113b3aa4f8bf33
 
-#### DOWNLOAD LOCATION:  https://mega.nz/file/CIoykITD#S_NQx9wRG05CTT7TdzBX8u24bGiVzT341VPZakycaw8
+#### DOWNLOAD LOCATION:  https://mega.nz/file/vcQk1abb#16Twq3m3CX3nWI491FyfTzWzP7kPx9sBRqhU3d_bRW4
 
-*** Interested in The Things Network? (After flashing, recommended guide start to finish: https://lupyuen.github.io/articles/gateway?5#install-pinedio-gateway great tutorial for further configuration with pictures!) Thank You Lup Yuen Lee! 
+*** Interested in The Things Network? (After flashing, recommended guide start to finish:
+ https://lupyuen.github.io/articles/gateway?5#install-pinedio-gateway great tutorial for further configuration with pictures!) 
+Thank You Lup Yuen Lee! 
 
 
 ## Info For the above PineDio gateway image download:
