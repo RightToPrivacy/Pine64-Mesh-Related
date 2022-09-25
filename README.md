@@ -23,7 +23,7 @@ Please file an issue if you notice a problem.
 
 *** Interested in The Things Network? (After flashing, recommended guide start to finish:
  https://lupyuen.github.io/articles/gateway?5#install-pinedio-gateway great tutorial for further configuration with pictures!) 
-Thank You Lup Yuen Lee! 
+Thank You Lup Yuen Lee! 🙂
 
 ---
 
