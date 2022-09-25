@@ -15,7 +15,7 @@ Please file an issue if you notice a problem.
     SHA256: 487bbb45ac78a4ee24b80918760673e58222aec60c81251617e932a8265d35b7
     SHA512: f21ee4e8b8739f2e0efc269ab158224d6dfc55b3d542118fb67286b5337a2499cda52f3df1f05db6b1202553fe227c6b90509275ec4a411b3972f9aefacc5364
 
-### DOWNLOAD LOCATION:  https://mega.nz/file/zB4gTLRZ#EUlJh2oYLgkfkphPBmQ8ufzQu9_b3nYFDGoXle4xyAk
+### 📁 DOWNLOAD LOCATION:  https://mega.nz/file/zB4gTLRZ#EUlJh2oYLgkfkphPBmQ8ufzQu9_b3nYFDGoXle4xyAk
 
 **Gitea Onion Location (Main Repo Server For Tor Browser):** http://gg6zxtreajiijztyy5g6bt5o6l3qu32nrg7eulyemlhxwwl6enk6ghad.onion/RightToPrivacy/PineDio-Mesh
 
