@@ -1,6 +1,8 @@
 ## Pine64-Mesh Related (Image For PineDio Gateway Armbian/Debian With Chirpstack Preinstalled (Switch between TheThingsNetwork + Chirpstack LoRaWAN)
 
-File an issue (here) if you notice a problem with the download below.)
+Please file an issue if you notice a problem with the download.
+
+---
 
 ### Ready to use PineDio (all in one) Gateway image (Use Either TheThingsNetwork / Chirpstack)
 
@@ -12,10 +14,13 @@ File an issue (here) if you notice a problem with the download below.)
 
 #### DOWNLOAD LOCATION:  https://mega.nz/file/vcQk1abb#16Twq3m3CX3nWI491FyfTzWzP7kPx9sBRqhU3d_bRW4
 
+---
+
 *** Interested in The Things Network? (After flashing, recommended guide start to finish:
  https://lupyuen.github.io/articles/gateway?5#install-pinedio-gateway great tutorial for further configuration with pictures!) 
 Thank You Lup Yuen Lee! 
 
+---
 
 ## Info For the above PineDio gateway image download:
 
@@ -37,6 +42,7 @@ Thank You Lup Yuen Lee!
 
 * Unique SSH keys generated on each flashed disk (generated during first boot) 
 
+---
 
 ### SSH access:
 
@@ -44,6 +50,7 @@ Thank You Lup Yuen Lee!
     login: pinedio
     password: SoPinePass!!!
 
+---
 
 ### CHIRPSTACK GATEWAY/NETWORK MANAGEMENT (web interface - make sure enabled inside gateway-config command):
 
@@ -57,6 +64,7 @@ http://IPaddressOnLAN:8080
 
 *Make sure to change default passwords*
 
+---
 
 ### Useful Commands:
 
@@ -84,6 +92,21 @@ http://IPaddressOnLAN:8080
     systemctl disable ttn-gateway (disable
     
     systemctl restart ttn-gateway (restart packet forwarder/concentrator/GPS)
+    
+---
+    
+#### CHIRPSTACK INFORMATION / COMMANDS
+
+*Configuration File:*
+ 
+    /etc/chirpstack-application-server/chirpstack-application-server.toml
+    
+
+**Check Chirpstack Logs:**
+
+    sudo journalctl -f -n 100 -u chirpstack-application-server
+
+---
 
 #### Visit My Linux / FOSS Tutorials + More: https://www.buymeacoffee.com/politictech/posts 
 
