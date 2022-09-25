@@ -1,3 +1,5 @@
+
+
 ## Pine64-Mesh Related (Image For PineDio Gateway Armbian/Debian With Chirpstack Preinstalled (Switch between TheThingsNetwork + Chirpstack LoRaWAN)
 
 Please file an issue if you notice a problem.
@@ -94,6 +96,13 @@ http://IPaddressOnLAN:8080
     systemctl restart ttn-gateway (restart packet forwarder/concentrator/GPS)
     
 ---
+
+**CHANGING EUI:**
+
+To change your gateway EUI, edit:
+
+    /opt/ttn-gateway/packet_forwarder/lora_pkt_fwd/local_conf.json
+
     
 #### CHIRPSTACK INFORMATION / COMMANDS
 
@@ -105,6 +114,15 @@ http://IPaddressOnLAN:8080
 **Check Chirpstack Logs:**
 
     sudo journalctl -f -n 100 -u chirpstack-application-server
+
+
+**Create Tor Hidden Service:**
+
+To add security enhancements including automated encryption setup (end to end encryption between tor clients), run the command:
+
+    sudo chirpstack-onion
+
+This allows you to (optionally) block out access outside your new .onion address, and protects login / admin traffic from MiTM attacks by adding encryption and routing allowing you the option to keep server location private
 
 ---
 
@@ -124,7 +142,7 @@ Armbian OS: https://www.armbian.com
 
 Gateway Software Fork changed for the A64 LTS (Pinedio Gateway + RAK2287 hat): https://github.com/RightToPrivacy/rak_common_for_gateway (edit of https://github.com/RAKWireless/rak_common_for_gateway [originally for raspberry pi's]) 
 
----
+--- 
 
 ### EARLIER RELATED UPDATES
 
