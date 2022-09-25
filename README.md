@@ -84,17 +84,17 @@ http://IPaddressOnLAN:8080
  
 - Concentrator + GPS specific: edit packet forwarder config (defaults set for pine64 Pinedio),
 
-    gateway-config (set network, frequency/channel, edit packet forwarder, restart pkt forward)
+    gateway-config (set network, location (freq varies on area), frequency/channel, edit packet forwarder, restart pkt forward)
 
     gateway-version (show Gateway ID/EUI)
     
     gen-eui (generate/display randomly generated EUI option - simply add to displayed file to use it)
 
-    systemctl status ttn-gateway (check your gateway service status)
+    systemctl status ttn-gateway (check gateway service status)
 
-    systemctl stop ttn-gateway
+    systemctl stop ttn-gateway (stop packet forwarder / concentrator from running)
 
-    systemctl disable ttn-gateway (disable
+    systemctl disable ttn-gateway (disable packet forwarder / concentrator from starting at boot)
     
     systemctl restart ttn-gateway (restart packet forwarder/concentrator/GPS)
     
@@ -119,7 +119,7 @@ To change your gateway EUI, edit:
     sudo journalctl -f -n 100 -u chirpstack-application-server
 
 
-**Create Tor Hidden Service:**
+**Create Tor Hidden Service (automatically adds encryption [new option] for administration):**
 
 To add security enhancements including automated encryption setup (end to end encryption between tor clients), run the command:
 
