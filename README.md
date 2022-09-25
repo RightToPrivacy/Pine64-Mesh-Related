@@ -17,7 +17,7 @@ Please file an issue if you notice a problem.
 
 ### 📁 DOWNLOAD LOCATION:  https://mega.nz/file/zB4gTLRZ#EUlJh2oYLgkfkphPBmQ8ufzQu9_b3nYFDGoXle4xyAk
 
-**Gitea Onion Location (Main Repo Server For Tor Browser):** http://gg6zxtreajiijztyy5g6bt5o6l3qu32nrg7eulyemlhxwwl6enk6ghad.onion/RightToPrivacy/PineDio-Mesh
+**Gitea Onion Location (Main Repo Server: Added Security [For Tor Browser]):** http://gg6zxtreajiijztyy5g6bt5o6l3qu32nrg7eulyemlhxwwl6enk6ghad.onion/RightToPrivacy/PineDio-Mesh
 
 ---
 
