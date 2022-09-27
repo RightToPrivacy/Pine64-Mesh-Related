@@ -82,7 +82,7 @@ http://IPaddressOnLAN:8080
       "Setup RAK Gateway Channel Plan" -> "Server Is Other Server" (<- For Chirpstack LoRaWAN), or for using TTN, select "Server Is TTN".
       Select Channel/Frequency (specific to your area)
  
- Concentrator / GPS Devices: edit packet forwarder config in gateway-config (defaults set for pine64 Pinedio)
+ **Concentrator / GPS Devices: edit packet forwarder config in gateway-config (defaults set for pine64 Pinedio)**
 
     gateway-config (set network, frequency/channel, edit packet forwarder, restart pkt forward)
 
@@ -130,7 +130,7 @@ This allows you to (optionally) block out access outside your new .onion address
 
 ---
 
-### Linux / FOSS / Security / Privacy Tutorials / Blog
+### 📝 Linux / FOSS / Security / Privacy Tutorials / Blog
 
 https://www.buymeacoffee.com/politictech/posts 
 
