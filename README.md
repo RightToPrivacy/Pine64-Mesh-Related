@@ -23,9 +23,9 @@ https://mega.nz/file/zB4gTLRZ#EUlJh2oYLgkfkphPBmQ8ufzQu9_b3nYFDGoXle4xyAk
 
 #### Secure 2nd Location To Reference Checksums
 
-Why? If checksums were (somehow) replaced on github (unlikely as this possibility is), a more secure way is to check is to do so on the Gitea Onion:
+Why? If github were compromised and checksums were replaced (unlikely as this possibility is), a more secure place to check is on the Gitea Onion:
 
-**Gitea Onion (Anonymous Git Service: Use Tor Browser Or Torify):** 
+**Gitea Onion (Anon Encrypted Git Service: Use Tor Browser):** 
 
 http://gg6zxtreajiijztyy5g6bt5o6l3qu32nrg7eulyemlhxwwl6enk6ghad.onion/RightToPrivacy/PineDio-Mesh
 
