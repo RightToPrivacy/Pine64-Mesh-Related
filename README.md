@@ -8,22 +8,22 @@ Please file an issue if you notice a problem.
 
 ### Ready to use PineDio (all in one) Gateway image (Use Either TheThingsNetwork / Chirpstack)
 
-### LATEST UPLOADED PINEDIO GATEWAY DOWNLOAD LINK/CREDENTIALS + CHECKSUMS:
+### ⭐ LATEST UPLOADED PINEDIO GATEWAY DOWNLOAD LINK/CREDENTIALS + CHECKSUMS:
 
 (PineDio-RAK-Armbian_09-25-2022.img.xz) (Sept 25, 2022)
 
     SHA256: 487bbb45ac78a4ee24b80918760673e58222aec60c81251617e932a8265d35b7
     SHA512: f21ee4e8b8739f2e0efc269ab158224d6dfc55b3d542118fb67286b5337a2499cda52f3df1f05db6b1202553fe227c6b90509275ec4a411b3972f9aefacc5364
 
-### 📁 DOWNLOAD LOCATION:  https://mega.nz/file/zB4gTLRZ#EUlJh2oYLgkfkphPBmQ8ufzQu9_b3nYFDGoXle4xyAk
+#### 📁 DOWNLOAD PINEDIO GATEWAY IMG:  
 
-**Gitea Onion Location (Main Repo Server: Added Security [For Tor Browser]):** http://gg6zxtreajiijztyy5g6bt5o6l3qu32nrg7eulyemlhxwwl6enk6ghad.onion/RightToPrivacy/PineDio-Mesh
+https://mega.nz/file/zB4gTLRZ#EUlJh2oYLgkfkphPBmQ8ufzQu9_b3nYFDGoXle4xyAk
 
 ---
 
-*** Interested in The Things Network? (After flashing, recommended guide start to finish:
+*** Interested in The Things Network (After flashing, recommended guide start to finish:
  https://lupyuen.github.io/articles/gateway?5#install-pinedio-gateway great tutorial for further configuration with pictures!) 
-Thank You Lup Yuen Lee! 🙂
+Thank You Lup Yuen Lee!  (he has other great documentation as well including Chirpstack [CS is included on image])
 
 ---
 
@@ -76,25 +76,25 @@ http://IPaddressOnLAN:8080
 
     gateway-config (configures gateway options including):
     
-- switch between Chirpstack (private LoRaWAN) and (optional) TheThingsNetwork (TTN)
+**Switch Between Chirpstack (private LoRaWAN) & (optional) TheThingsNetwork (TTN):**
 
       Inside the 'gateway-config' command, you can switch between Chirpstack (your own LoRaWAN) and TTN (TheThingsNetwork), simply select:
       "Setup RAK Gateway Channel Plan" -> "Server Is Other Server" (<- For Chirpstack LoRaWAN), or for using TTN, select "Server Is TTN".
       Select Channel/Frequency (specific to your area)
  
-- Concentrator + GPS specific: edit packet forwarder config (defaults set for pine64 Pinedio),
+ Concentrator / GPS Devices: edit packet forwarder config in gateway-config (defaults set for pine64 Pinedio)
 
-    gateway-config (set network, location (freq varies on area), frequency/channel, edit packet forwarder, restart pkt forward)
+    gateway-config (set network, frequency/channel, edit packet forwarder, restart pkt forward)
 
     gateway-version (show Gateway ID/EUI)
     
     gen-eui (generate/display randomly generated EUI option - simply add to displayed file to use it)
 
-    systemctl status ttn-gateway (check gateway service status)
+    systemctl status ttn-gateway (check your gateway service status)
 
-    systemctl stop ttn-gateway (stop packet forwarder / concentrator from running)
+    systemctl stop ttn-gateway
 
-    systemctl disable ttn-gateway (disable packet forwarder / concentrator from starting at boot)
+    systemctl disable ttn-gateway (disable
     
     systemctl restart ttn-gateway (restart packet forwarder/concentrator/GPS)
     
@@ -106,6 +106,7 @@ To change your gateway EUI, edit:
 
     /opt/ttn-gateway/packet_forwarder/lora_pkt_fwd/local_conf.json
 
+---
     
 #### CHIRPSTACK INFORMATION / COMMANDS
 
@@ -119,7 +120,7 @@ To change your gateway EUI, edit:
     sudo journalctl -f -n 100 -u chirpstack-application-server
 
 
-**Create Tor Hidden Service (automatically adds encryption [new option] for administration):**
+**Create Tor Hidden Service:**
 
 To add security enhancements including automated encryption setup (end to end encryption between tor clients), run the command:
 
@@ -129,9 +130,17 @@ This allows you to (optionally) block out access outside your new .onion address
 
 ---
 
-#### Visit My Linux / FOSS Tutorials + More: https://www.buymeacoffee.com/politictech/posts 
+### Linux / FOSS / Security / Privacy Tutorials / Blog
 
-(Most above linked blog posts also mirrored at https://politictech.wordpress.com (whichever page you prefer))
+https://www.buymeacoffee.com/politictech/posts 
+
+(Some blog posts are mirrored at https://politictech.wordpress.com as a backup)
+
+**Gitea Onion (Anonymous Git Service: Use Tor Browser Or Torify):** 
+
+http://gg6zxtreajiijztyy5g6bt5o6l3qu32nrg7eulyemlhxwwl6enk6ghad.onion/RightToPrivacy/PineDio-Mesh
+
+---
 
 ## HARDWARE: 
 
@@ -153,4 +162,3 @@ Older updates have been deleted to keep this space cleaner.
 
 #### (May): forked Rakwireless' rak_common_for_gateway. Edited for the A64 LTS + rak2287 SPI (PineDio Gateway). You can find that fork here:
 https://github.com/RightToPrivacy/rak_common_for_gateway
-
