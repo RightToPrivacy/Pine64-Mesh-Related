@@ -21,6 +21,16 @@ https://mega.nz/file/zB4gTLRZ#EUlJh2oYLgkfkphPBmQ8ufzQu9_b3nYFDGoXle4xyAk
 
 ---
 
+#### Secure 2nd Location To Reference Checksums
+
+Why? If checksums were (somehow) replaced on github (unlikely as this possibility is), a more secure way is to check is to do so on the Gitea Onion:
+
+**Gitea Onion (Anonymous Git Service: Use Tor Browser Or Torify):** 
+
+http://gg6zxtreajiijztyy5g6bt5o6l3qu32nrg7eulyemlhxwwl6enk6ghad.onion/RightToPrivacy/PineDio-Mesh
+
+---
+
 *** Interested in The Things Network (After flashing, recommended guide start to finish:
  https://lupyuen.github.io/articles/gateway?5#install-pinedio-gateway great tutorial for further configuration with pictures!) 
 Thank You Lup Yuen Lee!  (he has other great documentation as well including Chirpstack [CS is included on image])
