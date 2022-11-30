@@ -10,24 +10,16 @@ Please file an issue if you notice a problem.
 
 ### ⭐ LATEST UPLOADED PINEDIO GATEWAY DOWNLOAD LINK/CREDENTIALS + CHECKSUMS:
 
-(PineDio-RAK-Armbian_09-25-2022.img.xz) (Sept 25, 2022)
 
-    SHA256: 487bbb45ac78a4ee24b80918760673e58222aec60c81251617e932a8265d35b7
-    SHA512: f21ee4e8b8739f2e0efc269ab158224d6dfc55b3d542118fb67286b5337a2499cda52f3df1f05db6b1202553fe227c6b90509275ec4a411b3972f9aefacc5364
+
+(PineDio-RAK-Armbian_11-30-2022.img.xz [Linux Kernel 5.15.74-sunxi64]) (Nov 30, 2022) 
+
+    SHA256: b3cbb7d135e814c9de231fa8bb3fa5c770b26235c8173b5381239ed3dfe2824b
+    SHA512: a133d020c9590bc731039f294bd497921e7cd24918153fead46c35aa457e37700ec6576e24c726809c5a7ebe9929ae4962c04631fed318efe136b9a833214b03
 
 #### 📁 DOWNLOAD PINEDIO GATEWAY IMG:  
 
-https://mega.nz/file/zB4gTLRZ#EUlJh2oYLgkfkphPBmQ8ufzQu9_b3nYFDGoXle4xyAk
-
----
-
-#### Secure 2nd Location To Reference Checksums
-
-Why? If github were compromised and checksums were replaced (unlikely as this possibility is), a more secure place to check is on the Gitea Onion:
-
-**Gitea Onion (Anon Encrypted Git Service: Use Tor Browser):** 
-
-http://gg6zxtreajiijztyy5g6bt5o6l3qu32nrg7eulyemlhxwwl6enk6ghad.onion/RightToPrivacy/PineDio-Mesh
+https://mega.nz/file/1GVi0TaK#Y8J2CybSPB4tDKtkkydRI3LBFtDZ-WXWqSB1dMiAthc
 
 ---
 
@@ -102,9 +94,9 @@ http://IPaddressOnLAN:8080
 
     systemctl status ttn-gateway (check your gateway service status)
 
-    systemctl stop ttn-gateway
+    systemctl stop ttn-gateway (stop packet forwarder / concentrator services)
 
-    systemctl disable ttn-gateway (disable
+    systemctl disable ttn-gateway (disable concentrator / packet forwarder from starting at boot)
     
     systemctl restart ttn-gateway (restart packet forwarder/concentrator/GPS)
     
@@ -115,6 +107,10 @@ http://IPaddressOnLAN:8080
 To change your gateway EUI, edit:
 
     /opt/ttn-gateway/packet_forwarder/lora_pkt_fwd/local_conf.json
+
+Generate Random OUI Example:
+
+    gen-eui
 
 ---
     
@@ -142,21 +138,23 @@ This allows you to (optionally) block out access outside your new .onion address
 
 ### 📝 Linux / FOSS / Security / Privacy Tutorials / Blog
 
-https://www.buymeacoffee.com/politictech/posts 
+https://www.buymeacoffee.com/politictech/posts  (main blog/site)
 
 (Some blog posts are mirrored at https://politictech.wordpress.com as a backup)
 
-**Gitea Onion (Anonymous Git Service: Use Tor Browser Or Torify):** 
+**🧅 Gitea Onion (Anonymous Human Rights Supporting Git Service: Use Tor Browser / Torify):** 
 
 http://gg6zxtreajiijztyy5g6bt5o6l3qu32nrg7eulyemlhxwwl6enk6ghad.onion/RightToPrivacy/PineDio-Mesh
 
 ---
 
-## HARDWARE: 
+## 💻 HARDWARE: 
 
 Pine64: https://www.pine64.org (Pine64 community - main manufacture - completed gateway package + other PineDio offers)
-Pine64 Store: https://www.pine64.com (PineDio hardware)
-RAK2287: Designers/makers of the RAKwireless RAK2287 + GPS concentrator
+
+Pine64 Store: https://pine64.com/product-category/internet-of-things/ (PineDio Gateway hardware)
+
+RAKwireless: https://www.rakwireless.com/en-us (Designers/makers of the RAKwireless RAK2287 + GPS concentrator)
 
 ## SOFTWARE:
 
