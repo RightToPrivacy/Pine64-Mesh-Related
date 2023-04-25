@@ -11,15 +11,14 @@ Please file an issue if you notice a problem.
 ### ⭐ LATEST UPLOADED PINEDIO GATEWAY DOWNLOAD LINK/CREDENTIALS + CHECKSUMS:
 
 
+   (PineDio-RAK-Armbian_02-05-2023.img.xz [Linux Kernel 5.15.89-sunxi])
 
-(PineDio-RAK-Armbian_11-30-2022.img.xz [Linux Kernel 5.15.74-sunxi64]) (Nov 30, 2022) 
-
-    SHA256: b3cbb7d135e814c9de231fa8bb3fa5c770b26235c8173b5381239ed3dfe2824b
-    SHA512: a133d020c9590bc731039f294bd497921e7cd24918153fead46c35aa457e37700ec6576e24c726809c5a7ebe9929ae4962c04631fed318efe136b9a833214b03
+   SHA256: cdb9bd528981c47b68f121b4819ee870631c67dd5d125fb0ea3d79cae7ce4ac1
+   SHA512: dde9123542329dd37d29ebab695ddd8a0fe1a52e7c05f51ff7554d5a70224c30bd4a28d31526e84c89c78cd76f351487499dd8a1ab83baec2e8d00a6ff00874f
 
 #### 📁 DOWNLOAD PINEDIO GATEWAY IMG:  
 
-https://mega.nz/file/1GVi0TaK#Y8J2CybSPB4tDKtkkydRI3LBFtDZ-WXWqSB1dMiAthc
+https://mega.nz/file/hLVAWLDT#DMFOugfIHaVj3dI30YPHug-duKow4nGUt6uakEc_xmY 
 
 ---
 
