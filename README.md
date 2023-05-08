@@ -8,17 +8,20 @@ Please file an issue if you notice a problem.
 
 ### Ready to use PineDio (all in one) Gateway image (Use Either TheThingsNetwork / Chirpstack)
 
-### ⭐ LATEST UPLOADED PINEDIO GATEWAY DOWNLOAD LINK/CREDENTIALS + CHECKSUMS:
+### LATEST UPLOADED PINEDIO GATEWAY DOWNLOAD LINK/CREDENTIALS + CHECKSUMS:
 
 
-   (PineDio-RAK-Armbian_02-05-2023.img.xz [Linux Kernel 5.15.89-sunxi])
+   (PineDio-RAK-Armbian_05-08-2023.img.xz [Linux Kernel 5.15.93-sunxi])
 
-   SHA256: cdb9bd528981c47b68f121b4819ee870631c67dd5d125fb0ea3d79cae7ce4ac1
-   SHA512: dde9123542329dd37d29ebab695ddd8a0fe1a52e7c05f51ff7554d5a70224c30bd4a28d31526e84c89c78cd76f351487499dd8a1ab83baec2e8d00a6ff00874f
+🔑 CHECKSUMS
+
+    SHA256:cdbdb9cc976addc163dd51688c108334655cfc4069ea86b068b3388266ad3064
+    
+    SHA512:4be1d1a04742e964cf38c722d45dd19bcc9fade537af0311014dfc40f613cd3f9a59c794b089bc2ed81eaf0f0a4352ef85e6e5bc57dfe3e5d84997c791357230
 
 #### 📁 DOWNLOAD PINEDIO GATEWAY IMG:  
 
-https://mega.nz/file/hLVAWLDT#DMFOugfIHaVj3dI30YPHug-duKow4nGUt6uakEc_xmY 
+https://mega.nz/file/hCEHBSLa#NOMtk4qEvF4i6qtTynd69Dz9rBM7xaDiFulwfrrBkDA
 
 ---
 
