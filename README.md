@@ -4,6 +4,8 @@
 
 Please file an issue if you notice a problem.
 
+CONTACT: righttoprivacy[at]tutanota.com / righttoprivacy[at]i2pmail.org / righttoprivacy[at]mail.i2p (internal I2Pmail
+
 ---
 
 ### Ready to use PineDio (all in one) Gateway image (Use Either TheThingsNetwork / Chirpstack)
